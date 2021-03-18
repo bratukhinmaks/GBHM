@@ -1,0 +1,105 @@
+.vh-70 {
+    height: 70vh !important;
+}
+
+.vh-50 {
+    height: 50vh !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.certificate {
+    width: 500px;
+}
+
+.main-image {
+    position: absolute;
+    z-index: -1;
+    left: 180px;
+    width: 850px;
+    bottom: 0;
+}
+
+.button-custom {
+    background-color: #d76528;
+    color: white;
+    font-size: 25px !important;
+}
+
+
+.text-dark-gray {
+    color: #1B1A24;
+}
+
+
+.nav-gray {
+    background-color:#404040;
+}
+
+.fixed-height {
+    height: 500px;
+}
+
+.fixed-height-panels {
+    height: 700px;
+}
+
+
+.items-container {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    margin: 10px auto;
+}
+
+.items-container img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.items-container p{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .main-image {
+        right: 90px;
+        width: 350px;
+        bottom: 0;
+        z-index: -1;
+    }
+    .fixed-height {
+        height: 480px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .main-image {
+        right: -40px;
+        width: 265px;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .main-logo {
+        height: 65px !important;
+        width: 260px !important;
+    }
+
+    .main-text {
+        font-size: 18px !important;
+        padding-top: 40px !important;
+    }
+
+    .fixed-height {
+        height: auto;
+    }
+}
+
+.nav-item {
+    color: white !important;
+}
