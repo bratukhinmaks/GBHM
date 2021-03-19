@@ -98,6 +98,12 @@
     .fixed-height {
         height: auto;
     }
+    .fixed-height-panels {
+        height: auto;
+    }
+    .logo-top {
+        width: 90px;
+    }
 }
 
 .nav-item {
